@@ -1,0 +1,138 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //**pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages*/
+		/**公用*/
+		{
+			"path": "pages/login/loginRole",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+			}
+		},
+		/**商户*/
+		{
+			"path": "pages/merchant/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/merchant/main/main",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+			}
+		},
+		/**推广员*/
+		{
+			"path": "pages/promoter/lowlevel/create",
+			"style": {
+				"navigationBarTitleText": "开通下级"
+			}
+		},
+		{
+			"path": "pages/promoter/lowlevel/log",
+			"style": {
+				"navigationBarTitleText": "开通记录"
+			}
+		},
+		{
+			"path": "pages/promoter/lowlevel/editArea",
+			"style": {
+				"navigationBarTitleText": "编辑推广地域"
+			}
+		},
+		{
+			"path": "pages/promoter/lowlevel/editGame",
+			"style": {
+				"navigationBarTitleText": "编辑推广游戏"
+			}
+		},
+		{
+			"path": "pages/promoter/lowlevel/myLowlevel",
+			"style": {
+				"navigationBarTitleText": "我的下级"
+			}
+		},
+		{
+			"path": "pages/promoter/lowlevel/detail",
+			"style": {
+				"navigationBarTitleText": "下级详情"
+			}
+		},
+		{
+			"path": "pages/promoter/lowlevel/monthData",
+			"style": {
+				"navigationBarTitleText": "月业绩数据"
+			}
+		},
+		{
+			"path": "pages/promoter/lowlevel/sevenData",
+			"style": {
+				"navigationBarTitleText": "7日新增玩家"
+			}
+		},
+		{
+			"path": "pages/promoter/lowlevel/game",
+			"style": {
+				"navigationBarTitleText": "我的比赛权限"
+			}
+		},
+		{
+			"path": "pages/promoter/match/todayMatch",
+			"style": {
+				"navigationBarTitleText": "今日比赛"
+			}
+		},
+		{
+			"path": "pages/promoter/match/weekMatch",
+			"style": {
+				"navigationBarTitleText": "七日比赛"
+			}
+		},
+		{
+			"path": "pages/promoter/main/main",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
